@@ -1,0 +1,24 @@
+{
+  "blogs": [
+    {
+      "slug": "next-evenementen-react",
+      "title": "React Next Evenementen",
+      "subtitle": "Party Time project."
+    },
+    {
+      "slug": "react-design-paint",
+      "title": "React-Redux Paint",
+      "subtitle": "Paint, design windows XP"
+    },
+    {
+      "slug": "react-firebase-inkomsten",
+      "title": "React Firebase",
+      "subtitle": "Inkomsten app"
+    },
+    {
+      "slug": "react-piano-berichten-angular",
+      "title": "React piano en Angular berichten in mongo",
+      "subtitle": "Synthesizer en berichten"
+    }
+  ]
+}

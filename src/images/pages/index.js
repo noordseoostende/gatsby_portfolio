@@ -1,3 +1,4 @@
+
 import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
@@ -12,7 +13,7 @@ export default function IndexPage({data, pageContext}) {
     <Layout>
       <Seo
         title="Home"
-        description="Mijn portfolio met de verwijzing naar wat ik in Linkedin heb gefilmd"
+        description="Code space is aiming to be the best platform to learn programming"
       />
       <div className="columns">
         { nodes.slice(0, 2).map(node =>
@@ -30,7 +31,7 @@ export default function IndexPage({data, pageContext}) {
               searchIndex={pageContext.searchIndex} />}
         />
         <Link className="button is-primary is-small is-outlined" to="/blogs">
-          Lees meer...
+          Read more blogs...
         </Link>
       </div>
     </Layout>
